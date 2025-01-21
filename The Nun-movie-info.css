@@ -1,0 +1,71 @@
+body{
+  margin: 0;
+  font-family: "Poppins", serif;
+  padding: 0;
+}
+/*Header*/
+.navbar{
+  display: flex;
+    position: fixed;
+    z-index: 100;
+    border-bottom: 1px solid lightgray;
+    justify-content: space-between;
+    background-color: #f9f4f4;
+    top: 0;
+    left: 0;
+    right: 0;
+    
+}
+.adjust{
+  color: #898888;  
+   text-decoration: none;
+   margin: 0px 20px;
+}
+.login-btn{
+    margin-right: 30px;
+    border-radius: 0px;
+    padding: 6px;
+    font-size: 14px;
+    border: 2px solid #EDEDED;
+
+}
+.film-flexIcon{
+  margin-left: 44px;
+}
+.adjust:hover{
+  opacity: 0.7;
+  border-bottom:3px solid black ;
+  border-radius: 2.4px;
+}
+/*Body*/
+
+.movie-info-Container{
+  margin-top: 10%;
+}
+.cut-Info{
+  height: 25rem;
+  width: 40rem;
+}
+.movie-info-Container{
+  display: flex;
+  justify-content: space-evenly;
+}
+.info-Container{
+  color: white;
+  padding: 22px;
+  border-radius: 22px;
+  background-color: #7f0814;
+}
+.adjust-width{
+  width: 634px;
+}
+.movie-INFO{
+  margin: 14px 10px;
+  font-size: 13px;
+  color: #e4e1e1;
+}
+.director{
+  display: flex;
+  font-size: 13px;
+  justify-content: flex-end;
+}
